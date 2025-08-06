@@ -1,0 +1,10 @@
+# .gitignore para proyectos Spring Boot
+/target
+*.iml
+*.log
+*.class
+*.jar
+*.war
+.idea/
+.vscode/
+.DS_Store

@@ -1,0 +1,238 @@
+{
+	"info": {
+		"_postman_id": "b16377c1-e88a-40fe-8b7f-3cb0e7fee148",
+		"name": "SpringBootProducts",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "14420097"
+	},
+	"item": [
+		{
+			"name": "GetProducts",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/sistema/api/v1/productos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"sistema",
+						"api",
+						"v1",
+						"productos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetCustomers",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/sistema/api/v1/clientes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"sistema",
+						"api",
+						"v1",
+						"clientes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetCustomersByUserName",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/sistema/api/v1/clientes/maryp",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"sistema",
+						"api",
+						"v1",
+						"clientes",
+						"maryp"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteCustomersById",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"domainInformation\": \"Subscription\",\r\n    \"serviceInformation\": \"InfoOffer\",\r\n    \"key\": \"55788\",\r\n    \"data\": \"[{'offeringId':'55788','offeringName':'DECO Adicional DVR2'}]\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/sistema/api/v1/clientes/456",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"sistema",
+						"api",
+						"v1",
+						"clientes",
+						"456"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PostCustomer",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 9999,\r\n    \"name\": \"Edwin Parra\",\r\n    \"userName\": \"Eparra\",\r\n    \"password\": \"passsdadad\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/sistema/api/v1/clientes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"sistema",
+						"api",
+						"v1",
+						"clientes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PutCustomer",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n        \"id\": 789,\r\n        \"name\": \"Pepe Garzon\",\r\n        \"userName\": \"pepe88\",\r\n        \"password\": \"pass342\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/sistema/api/v1/clientes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"sistema",
+						"api",
+						"v1",
+						"clientes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PatchCustomer",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 456,\r\n    \"name\": \"Marlon Pedraza\",\r\n    \"username\": \"mpedraza\",\r\n    \"password\": \"111111\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/sistema/api/v1/clientes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"sistema",
+						"api",
+						"v1",
+						"clientes"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

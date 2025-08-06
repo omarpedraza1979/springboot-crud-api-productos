@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "HPE NoteBook Portatil",
+    "price": 77700,
+    "stock": 10
+  },
+  {
+    "id": 1,
+    "name": "SmarthWatch",
+    "price": 30.799,
+    "stock": 12
+  },
+  {
+    "id": 1,
+    "name": "SmarthPhone",
+    "price": 60.799,
+    "stock": 14
+  },
+  {
+    "id": 1,
+    "name": "Tablet",
+    "price": 40.799,
+    "stock": 20
+  }
+]
