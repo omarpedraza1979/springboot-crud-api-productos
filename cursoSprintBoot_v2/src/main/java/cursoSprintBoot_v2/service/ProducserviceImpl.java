@@ -1,13 +1,9 @@
 package cursoSprintBoot_v2.service;
 
-import cursoSprintBoot_v2.domain.Customer;
 import cursoSprintBoot_v2.domain.Product;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.context.annotation.Lazy;
-import org.springframework.context.annotation.Primary;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.GetMapping;
 
 import java.util.ArrayList;
 import java.util.Arrays;
