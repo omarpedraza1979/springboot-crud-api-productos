@@ -2,7 +2,7 @@
 # 📌 API REST PRODUCTOS:
 
 API REST en **Spring Boot** que implementa operación GET de productos en memoria. La lista puede cambiarse por parametro en el archivo 
-de configuracion **application.properties** para que sea tomada desde un archivo de recursos en formato JSON o desde una lista List<Product>. 
+de configuracion **application.properties** para que sea tomada desde un archivo de recursos en formato JSON o desde una **List<Product>** 
 
 Este proyecto utiliza la anotación **@ConditionalOnProperty** para manejar dos tipos de listas de productos contenidas en: 
 - \cursoSprintBoot_v2\service\ProducserviceImpl.java
