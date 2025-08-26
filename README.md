@@ -8,7 +8,7 @@ Este proyecto utiliza la anotación **@ConditionalOnProperty** para manejar dos 
 - \cursoSprintBoot_v2\service\ProducserviceImpl.java
 - \cursoSprintBoot_v2\src\main\resources\products.json
 
-El objetivo es poder utilizar una lista u otra solo cambiando la propiedad **service.products=list** del archivo **application.properties"
+El objetivo es poder utilizar una lista u otra solo cambiando la propiedad **service.products=list** del archivo **application.propertie**
 
 ## 📌 Características
 - ✅ GET de productos sobre lista JSON en memoria (archivo JSON ó List<Product>)  
