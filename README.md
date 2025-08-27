@@ -1,14 +1,18 @@
 
-# 📌 API REST PRODUCTOS:
+# 🚀 Spring Boot REST API - Products Service
 
-API REST en **Spring Boot** que implementa operación GET de productos en memoria. La lista puede cambiarse por parametro en el archivo 
-de configuracion **application.properties** para que sea tomada desde un archivo de recursos en formato JSON o desde una **List<Product>** 
+API REST en Spring Boot que implementa la operación GET de productos en memoria.
+La fuente de datos puede configurarse dinámicamente desde application.properties para usar:
 
-Este proyecto utiliza la anotación **@ConditionalOnProperty** para manejar dos tipos de listas de productos contenidas en: 
-- \cursoSprintBoot_v2\service\ProducserviceImpl.java
-- \cursoSprintBoot_v2\src\main\resources\products.json
+- Una lista en memoria (List<Product>)
+- Un archivo JSON (products.json)
 
-El objetivo es poder utilizar una lista u otra solo cambiando la propiedad **service.products=list** del archivo **application.propertie**
+Ejemplo de configuración :
+
+# application.properties
+service.products=list       # Usa lista en memoria
+# service.products=json     # Usa archivo JSON
+
 
 ## 📌 Características
 - ✅ GET de productos sobre lista JSON en memoria (archivo JSON ó List<Product>)  
@@ -41,6 +45,7 @@ El objetivo es poder utilizar una lista u otra solo cambiando la propiedad **ser
     │       └───java
     │           └───cursoSprintBoot_v2
 
+
 ```
 ---
 
@@ -51,7 +56,7 @@ El objetivo es poder utilizar una lista u otra solo cambiando la propiedad **ser
 - [Maven](https://maven.apache.org/)
 
 
-### 🔹 Pasos
+## 🔹 Pasos
 
 # Clonar repositorio
 git clone https://github.com/omarpedraza1979/springboot-crud-api-productos
@@ -73,12 +78,6 @@ http://localhost:8080
 |--------|---------------------------------------|------------------------------------|
 | GET    | `/sistema/api/v1/productos`           | Listar todos los productos         |
 
-```
----
-## 🧪 Pruebas
-```bash
-mvn test
-```
 
 ---
 ## 🧪 Postman
@@ -86,8 +85,19 @@ Este proyecto incluye una colección de Postman para probar los endpoints de la 
 [SpringBootProducts_V2.postman_collection.json](./SpringBootProducts_V2.postman_collection.json)
 
 
+---
+## 🧪 Pruebas
+```bash
+mvn test
+```
+---
+
 ## 👨‍💻 Autor
 - **Omar Orlando Pedraza Garzón**
 - [GitHub](https://github.com/omarpedraza1979)
 ---
 
+
+## 📜 Licencia
+Este proyecto está bajo la licencia [MIT](LICENSE).  
+Eres libre de usarlo, modificarlo y distribuirlo con fines personales o educativos.
