@@ -61,8 +61,10 @@ service.products=json   (Usa archivo JSON)
 1. Clonar repositorio
 git clone https://github.com/omarpedraza1979/springboot-crud-api-productos
 
+
 2. Compilar y ejecutar
 cd springboot-crud-api-productos\cursoSprintBoot_v2> mvn spring-boot:run
+
 
 3. El proyecto quedará disponible en:  
 http://localhost:8080
@@ -76,14 +78,13 @@ http://localhost:8080
 | GET    | `/sistema/api/v1/productos`           | Listar todos los productos         |
 
 
-### Ejemplo con CURL
+## 🧪 Ejemplo con CURL
 curl http://localhost:8080/sistema/api/v1/productos
 
 
 ## 🧪 Postman
 Este proyecto incluye una colección de Postman para probar los endpoints de la API. 
 [SpringBootProducts_V2.postman_collection.json](./SpringBootProducts_V2.postman_collection.json)
-
 
 ---
 ## 🧪 Pruebas
