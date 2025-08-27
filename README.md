@@ -9,9 +9,9 @@ La fuente de datos puede configurarse dinámicamente desde application.propertie
 
 Ejemplo de configuración :
 
-# application.properties
+**application.properties**
 service.products=list       # Usa lista en memoria
-# service.products=json     # Usa archivo JSON
+**service.products=json**   # Usa archivo JSON
 
 
 ## 📌 Características
@@ -58,15 +58,15 @@ service.products=list       # Usa lista en memoria
 
 ## 🔹 Pasos
 
-# Clonar repositorio
+1. Clonar repositorio
 git clone https://github.com/omarpedraza1979/springboot-crud-api-productos
 cd springboot-crud-api-productos\cursoSprintBoot_v2>
 
-# Compilar y ejecutar
+2. Compilar y ejecutar
 mvn spring-boot:run
 
 
-#  El proyecto quedará disponible en:  
+3. El proyecto quedará disponible en:  
 
 http://localhost:8080
 
