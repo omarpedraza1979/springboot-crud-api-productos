@@ -10,8 +10,8 @@ La fuente de datos puede configurarse dinámicamente desde application.propertie
 Ejemplo de configuración :
 
 ## application.properties
-service.products=list   (Usa lista en memoria)
-service.products=json   (Usa archivo JSON)
+- service.products=list   (Usa lista en memoria) 
+- service.products=json   (Usa archivo JSON)
 
 
 ## 📌 Características
