@@ -7,19 +7,25 @@ La fuente de datos puede configurarse dinámicamente desde application.propertie
 - Una lista en memoria (List<Product>)
 - Un archivo JSON (products.json)
 
-Ejemplo de configuración :
-
-## application.properties
-- service.products=list   (Usa lista en memoria) 
-- service.products=json   (Usa archivo JSON)
-
 
 ## 📌 Características
-- ✅ GET de productos sobre lista JSON en memoria (archivo JSON ó List<Product>)  
+- ✅ GET de productos desde lista JSON en memoria (archivo JSON ó List<Product>), 
+     usando `@ConditionalOnProperty` para seleccionar la fuente de datos.
+
 - ✅ API REST construida con Spring Boot.
 
 ---
 
+## ⚙️ Configuración dinámica de productos
+
+Este proyecto usa la anotación 
+`@ConditionalOnProperty(name = "service.products", havingValue = "json")`  
+para decidir la fuente de datos de productos:
+
+- `service.products=list` → Usa una lista en memoria (List<Product>)
+- `service.products=json` → Carga desde un archivo `products.json`
+
+---
 ## 🛠️ Tecnologías utilizadas
 - **Java 17** → Lenguaje principal  
 - **Spring Boot 3.3.7** → Framework  
