@@ -69,7 +69,7 @@ git clone https://github.com/omarpedraza1979/springboot-crud-api-productos
 
 
 2. Compilar y ejecutar
-cd springboot-crud-api-productos\cursoSprintBoot_v2> mvn spring-boot:run
+ ..springboot-crud-api-productos\cursoSprintBoot_v2> mvn spring-boot:run
 
 
 3. El proyecto quedará disponible en:  
