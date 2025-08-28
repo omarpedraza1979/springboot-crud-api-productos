@@ -85,6 +85,7 @@ http://localhost:8080
 
 
 ## 🧪 Ejemplo con CURL
+
 curl http://localhost:8080/sistema/api/v1/productos
 
 
