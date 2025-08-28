@@ -67,10 +67,8 @@ para decidir la fuente de datos de productos:
 1. Clonar repositorio
 git clone https://github.com/omarpedraza1979/springboot-crud-api-productos
 
-
 2. Compilar y ejecutar
  ..springboot-crud-api-productos\cursoSprintBoot_v2> mvn spring-boot:run
-
 
 3. El proyecto quedará disponible en:  
 http://localhost:8080
@@ -85,6 +83,8 @@ http://localhost:8080
 
 
 ## 🧪 Ejemplo con CURL
+
+**1. Listar todos los productos**
 
 curl http://localhost:8080/sistema/api/v1/productos
 
