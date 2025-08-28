@@ -86,7 +86,7 @@ http://localhost:8080
 
 **1. Listar todos los productos**
 
-curl http://localhost:8080/sistema/api/v1/productos
+ curl -X GET http://localhost:8080/sistema/api/v1/productos
 
 
 ## 🧪 Postman
