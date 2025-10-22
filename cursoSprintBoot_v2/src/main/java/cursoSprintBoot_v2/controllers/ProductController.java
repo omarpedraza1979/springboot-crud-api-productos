@@ -30,7 +30,7 @@ public class ProductController {
     private ExternalizedConfigurations externalizedConfigurations;
 
     @GetMapping
-    public ResponseEntity<?> getProducts() {
+    public ResponseEntity<List<Product>>  getProducts() {
 
         System.out.println("externalizedConfigurations = "+externalizedConfigurations.toString());
 
