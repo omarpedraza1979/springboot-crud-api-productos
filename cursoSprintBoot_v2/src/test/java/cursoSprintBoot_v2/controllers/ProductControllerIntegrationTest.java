@@ -42,7 +42,7 @@ public class ProductControllerIntegrationTest {
         when(productService.getProducts()).thenReturn(mockProducts);
 
         // Simular GET /products
-        mockMvc.perform(get("/products"))
+        mockMvc.perform(get("/productos"))
                 .andExpect(status().isOk())
                 .andExpect(jsonPath("$.length()").value(2))
                 .andExpect(jsonPath("$[0].name").value("Producto1"))
