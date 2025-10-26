@@ -96,7 +96,8 @@ Este proyecto incluye una colección de Postman para probar los endpoints de la 
 ---
 ## 🧪 Pruebas
 ```bash
-mvn test
+\springboot-crud-api-productos\cursoSprintBoot_v2>mvn -Dtest=ProductControllerUnitTest test
+\springboot-crud-api-productos\cursoSprintBoot_v2>mvn -Dtest=ProductControllerIntegrationTest test
 ```
 ---
 
